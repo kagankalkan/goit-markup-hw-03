@@ -5,9 +5,19 @@ body {
     
 }
 .container {
-    margin: 0;
-    padding: 0;
-    
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+
+}
+img {
+    display: block;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-div {
+    display: flex;
 }
 .logo {
     font-family:"Raleway", sans-serif;
@@ -20,6 +30,10 @@ body {
 }
 .logo-second-word {
     color: #2e2f42;
+}
+.navbar {
+    display: flex;
+    align-items: center
 }
 .navbar-list {
     font-weight: 500;
