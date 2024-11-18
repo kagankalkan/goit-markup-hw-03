@@ -27,6 +27,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-second-word {
     color: #2e2f42;
@@ -34,6 +35,13 @@ img {
 .navbar {
     display: flex;
     align-items: center
+}
+.navbar-ul {
+    display: flex;
+    gap: 40px;
+}
+.navbar-ul-list{
+    padding: 24px 0;
 }
 .navbar-list {
     font-weight: 500;
@@ -49,6 +57,10 @@ img {
 }
 .navbar-address {
     font-style: normal;
+}
+.navbar-address-ul {
+    display: flex;
+    gap: 40px;
 }
 .navbar-address-list {
     line-height: 1.5;
